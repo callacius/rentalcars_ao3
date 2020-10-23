@@ -10,9 +10,9 @@ development:
   <<: *default
   database: rentalcars_development
 
- test:
-  <<: *default
-  database: rentalcars_test
+ #test:
+ # <<: *default
+ # database: rentalcars_test
 
 production:
   <<: *default

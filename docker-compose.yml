@@ -20,20 +20,7 @@ services:
       - gems:/gems
     depends_on:
       - db
-      - box
-
-  box:
-    image: busybox
-    volumes:
-        - /box
-
-  mailcatcher:
-    image: tophfr/mailcatcher
-    ports:
-        - 1025:25
-        - 1080:25
     
 volumes:
   postgres:
   gems:
-  box:
