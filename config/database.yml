@@ -8,13 +8,13 @@ default: &default
 
 development:
   <<: *default
-  database: rentalcars_development
+  database: rentalcar_development
 
- test:
+test:
   <<: *default
-  database: rentalcars_test
+  database: rentalcar_test
 
 production:
   <<: *default
-  database: rentalcars_production
-  username: rentalcars
+  database: rentalcar_production
+  username: rentalcar
